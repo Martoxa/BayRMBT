@@ -7,7 +7,7 @@ And the following publication when using BayMBT for lakes:
 
 Martínez-Sosa, P., Tierney, J. E., Stefanescu, I. C., Dearing Crampton-Flood, E., Shuman, B. N., Routson, C. A global Bayesian temperature calibration for lacustrine brGDGTs. Geochimica et Cosmochimica Acta https://doi.org/10.1016/j.gca.2021.04.038
 
-##Description of contents
+#Description of contents
 
 bayRmbt_model.R This contains the code to construct the calibration model. It loads either the soil or lake core top dataset and calculates model parameters using Bayesian linear regression. For everyday use you don't need to run this as the parameters are already calculated and provided here as .RDS files (params.RDS files). This is provided here for transparency. This function in R has three dependencies: the packages MASS, Rlab, and ks. 
 
